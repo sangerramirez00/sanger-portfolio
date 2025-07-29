@@ -196,6 +196,12 @@ export const BACKEND_SKILL = [
     height: 80,
   },
   {
+    skill_name: "PHP",
+    image: "php.png",
+    width: 80,
+    height: 80,
+  },
+  {
     skill_name: "Laravel",
     image: "laravel.png",
     width: 80,
@@ -443,7 +449,7 @@ export const experiences: IExperience[] = [
     date: "April 2025",
     points: [
       "Designed, developed, and maintained full-stack web applications within WORKD’s cloud-based business management platform, integrating ERP, CRM, and communication tools into a seamless user experience.",
-      "Built and optimized RESTful APIs using Node.js and Express, ensuring secure and scalable data flow between front-end interfaces and back-end services.",
+      "Built and optimized RESTful APIs using Laravel, ensuring secure and scalable data flow between front-end interfaces and back-end services.",
       "Integrated real-time communication tools VoIP, live chat, and email modules) to enhance client relationship management and sales operations.",
       "Led the refactoring of legacy codebases, increasing application performance by 30% and reducing technical debt through best practices and modular architecture.",
     ],
@@ -480,7 +486,7 @@ export const experiences: IExperience[] = [
     iconBg: "#383E56",
     date: "Feburary 2011 - December 2015",
     points: [
-      "Developed a customer management dashboard using C#, SQL, JavaScript, HTML, and CSS, enabling employees to efficiently view and manage customer data.",
+      "Developed a customer management dashboard using PHP, SQL, JavaScript, HTML, and CSS, enabling employees to efficiently view and manage customer data.",
       "Built secure RESTful APIs in PHP to facilitate seamless communication between front-end and back-end components.",
       "Automated manual workflows by writing SQL scripts, significantly improving operational efficiency and reducing processing time.",
     ],
